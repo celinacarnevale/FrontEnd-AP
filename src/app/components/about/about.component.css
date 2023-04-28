@@ -1,0 +1,12 @@
+img{
+  width: 6em;
+  justify-content: center;
+}
+
+.profile{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  columns: 3 100px;
+}

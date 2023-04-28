@@ -6,8 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
-import { ProfileComponent } from './components/profile/profile.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { AboutComponent } from './components/about/about.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +19,12 @@ import { BannerComponent } from './components/banner/banner.component';
     HeaderComponent,
     LogoAPComponent,
     SocialmediaComponent,
-    ProfileComponent,
-    BannerComponent
+    BannerComponent,
+    AboutComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillsComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
