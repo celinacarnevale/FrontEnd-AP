@@ -1,7 +1,7 @@
 .header{
-  display: flex;
   flex-wrap: wrap;
   margin: 0px;
-  position: sticky;
+  display: flex;
   background-color: #1ABC9C;
+  width: 100%;
 }
