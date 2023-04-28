@@ -1,4 +1,10 @@
 div{
   display: flex;
-  background-color: black;
+  color: #f0ffff;
+  flex-wrap: wrap;
+  background-color: rgb(149, 108, 251);
+  margin: 0px;
+  padding: 0;
+  position: sticky;
+  top: 0;
 }
