@@ -1,3 +1,6 @@
 app-root{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }

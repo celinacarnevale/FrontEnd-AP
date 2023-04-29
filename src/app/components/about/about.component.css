@@ -4,5 +4,16 @@ img{
 }
 
 .container{
-  columns: 3 100px;
+  columns: 3;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.about{
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
