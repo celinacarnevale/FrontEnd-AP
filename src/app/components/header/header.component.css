@@ -1,5 +1,4 @@
-.header{
-  flex-wrap: wrap;
+.container-fluid{
   margin: 0px;
   display: flex;
   background-color: #1ABC9C;

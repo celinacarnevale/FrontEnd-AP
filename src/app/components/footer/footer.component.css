@@ -1,0 +1,21 @@
+p{
+  font-size: 8px;
+  justify-content: center;
+  text-align: center;
+  color: #373737;
+}
+
+.navlinks{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #282727 ;
+  margin-right: 10px;
+}

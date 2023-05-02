@@ -2,11 +2,22 @@
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  width:98%;
+  width:90%;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius:10px;
   padding-left: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 25px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+h4{
+  margin-bottom: 5px;
+  color: #0b4d3e;
 }
