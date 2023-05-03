@@ -1,7 +1,9 @@
 .container-fluid{
-  margin: 0px;
   display: flex;
   background-color: #1ABC9C;
   width: 100%;
   color: azure;
+  flex-direction: row;
+  margin: 0%;
+  padding:0%;
 }
