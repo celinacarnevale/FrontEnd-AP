@@ -1,6 +1,9 @@
-app-root{
+html{
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+  background: rgb(26,188,156);
+  background: linear-gradient(180deg, rgba(26,188,156,1) 1%, rgba(255,255,255,1) 91%);
+}
+
+img{
+  width: 100%;
 }

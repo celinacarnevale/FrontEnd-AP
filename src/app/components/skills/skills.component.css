@@ -7,9 +7,11 @@
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius:10px;
   padding-left: 15px;
+  padding-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 25px;
+  background-color: #ffffff;
 }
 
 .row{
