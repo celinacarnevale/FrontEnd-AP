@@ -1,7 +1,8 @@
 <div class="footer">
   <div class="navlinks">
     <a href="/">Home</a>
-    <a href="/login">Login</a>
+    <a href="/login" (click)="login()" *ngIf="!isLogged">Login</a>
+    <a href="/" (click)="onLogOut()" *ngIf="isLogged">Salir</a>
   </div>
   <hr>
   <p>2023, desarrollado por Celina Villarroel Carnevale</p>

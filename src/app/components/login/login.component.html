@@ -5,9 +5,9 @@
       Por favor, ingrese su email y contraseña para iniciar sesión.
     </p>
     <div class="formulario">
-      <form class="loginform">
-        <input class="formItem" type="email" placeholder="Email" >
-        <input class="formItem" type="password" placeholder="Contraseña">
+      <form #f="ngForm" (ngSubmit)="onLogin()" class="loginform" action="" novalidate>
+        <input class="formItem" id="nombreUsuario" name="nombreUsuario" type="email" placeholder="Email" [(ngModel)]="nombreUsuario" required>
+        <input class="formItem" id="password" name="password" type="password" placeholder="Contraseña" [(ngModel)]="password" required>
         <button class="boton" type="submit">Ingresar</button>
       </form>
     </div>
