@@ -1,0 +1,14 @@
+<div class="container" *ngIf="educacion">
+  <h4>Editar educación</h4>
+    <form (ngSubmit)="onUpdate()" novalidate #f="ngForm" class="editform">
+      <div>
+        <label for="nombreEdu">
+          <input type="text" class="formItem" id="nombreEdu" name="nombreEdu" [(ngModel)]="educacion.nombreEdu" required placeholder="Nombre del curso e institucion">
+        </label>
+        <label for="descripcionEdu">
+          <input type="text" class="formItem" id="descripcionEdu" name="descripcionEdu" [(ngModel)]="educacion.descripcionEdu" required placeholder="Descripción de lo aprendido">
+        </label>
+      </div>
+      <button class="boton">Actualizar</button>
+    </form>
+</div>

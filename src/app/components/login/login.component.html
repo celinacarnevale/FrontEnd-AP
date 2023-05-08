@@ -1,0 +1,15 @@
+<div class="allContent">
+  <div class="container">
+    <h4>Login</h4>
+    <p>¡Bienvenidos!<br>
+      Por favor, ingrese su nombre de usuario y contraseña para iniciar sesión.
+    </p>
+    <div class="formulario">
+      <form #f="ngForm" (ngSubmit)="onLogin()" class="loginform" action="" novalidate>
+        <input class="formItem" id="nombreUsuario" name="nombreUsuario" type="email" placeholder="Email" [(ngModel)]="nombreUsuario" required>
+        <input class="formItem" id="password" name="password" type="password" placeholder="Contraseña" [(ngModel)]="password" required>
+        <button class="boton" type="submit">Ingresar</button>
+      </form>
+    </div>
+  </div>
+</div>

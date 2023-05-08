@@ -1,0 +1,82 @@
+.skills{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:90%;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:10px;
+  padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  background-color: #ffffff;
+}
+
+h4{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #0b4d3e;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+}
+
+.botonAdd{
+  margin-left: 44em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color:#ffffff;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 4px;
+  border-color: #1ABC9C;
+  padding-top: 5px;
+}
+
+.botonE{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 4px;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+  padding-top: 5px;
+  margin-left: 3em;
+}
+
+.botonD{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 4px;
+  background-color: #BC1A1A;
+  border-color: #BC1A1A;
+  padding-top: 5px;
+  margin-left: 1em;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+circle-progress{
+  width: 10em;
+  margin: 0;
+  padding: 0;
+}
