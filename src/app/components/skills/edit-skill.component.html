@@ -1,0 +1,14 @@
+<div class="container" *ngIf="skills">
+  <h4>Editar skill</h4>
+    <form (ngSubmit)="onUpdate()" class="editform" novalidate #f="ngForm">
+      <div>
+        <label for="nombreSkill">
+          <input type="text" class="formItem" id="nombreSkill" name="nombreSkill" [(ngModel)]="skills.nombreSkill" required placeholder="Nombre de la skill">
+        </label>
+        <label for="descripcionExp">
+          <input type="text" class="formItem" id="porcentaje" name="porcentaje" [(ngModel)]="skills.porcentaje" required placeholder="Porcentaje de la skill">
+        </label>
+      </div>
+      <button class="boton">Actualizar</button>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+<div class="container">
+  <h4>Añadir educación</h4>
+    <form (ngSubmit)="onCreate()" class="newform" novalidate #f="ngForm">
+      <div>
+        <label for="nombreEdu">
+          <input type="text" class="formItem" id="nombreEdu" name="nombreEdu" [(ngModel)]="nombreEdu" required placeholder="Nombre del curso e institucion">
+        </label>
+        <label for="descripcionEdu">
+          <input type="text" class="formItem" id="descripcionEdu" name="descripcionEdu" [(ngModel)]="descripcionEdu" required placeholder="Descripción de lo aprendido">
+        </label>
+      </div>
+      <button class="boton">Añadir</button>
+    </form>
+</div>

@@ -1,0 +1,20 @@
+<div class="container">
+  <h4>Añadir proyecto</h4>
+    <form (ngSubmit)="onCreate()" class="newform" novalidate #f="ngForm">
+      <div>
+        <label for="nombreProy">
+          <input type="text" class="formItem" id="nombreProy" name="nombreProy" [(ngModel)]="nombreProy" required placeholder="Nombre del proyecto">
+        </label>
+        <label for="descripcionProy">
+          <input type="text" class="formItem" id="descripcionProy" name="descripcionProy" [(ngModel)]="descripcionProy" required placeholder="Descripción del proyecto">
+        </label>
+        <label for="link">
+          <input type="text" class="formItem" id="link" name="link" [(ngModel)]="link" required placeholder="Link al proyecto">
+        </label>
+        <label for="fecha">
+          <input type="text" class="formItem" id="fecha" name="fecha" [(ngModel)]="fecha" required placeholder="Fecha de realizacion">
+        </label>
+      </div>
+      <button class="boton">Añadir</button>
+    </form>
+</div>

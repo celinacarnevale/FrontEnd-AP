@@ -1,0 +1,20 @@
+<div class="container" *ngIf="proyectos">
+  <h4>Editar proyecto</h4>
+    <form (ngSubmit)="onUpdate()" class="editform" novalidate #f="ngForm">
+      <div>
+        <label for="nombreProy">
+          <input type="text" class="formItem" id="nombreProy" name="nombreProy" [(ngModel)]="proyectos.nombreProy" required placeholder="Nombre del proyecto">
+        </label>
+        <label for="descripcionProy">
+          <input type="text" class="formItem" id="descripcionProy" name="descripcionProy" [(ngModel)]="proyectos.descripcionProy" required placeholder="Descripción del proyecto">
+        </label>
+        <label for="link">
+          <input type="text" class="formItem" id="link" name="link" [(ngModel)]="proyectos.link" required placeholder="Link al proyecto">
+        </label>
+        <label for="fecha">
+          <input type="text" class="formItem" id="fecha" name="fecha" [(ngModel)]="proyectos.fecha" required placeholder="Fecha de realizacion">
+        </label>
+      </div>
+      <button class="boton">Actualizar</button>
+    </form>
+</div>

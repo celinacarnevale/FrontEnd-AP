@@ -14,12 +14,69 @@
   background-color: #ffffff;
 }
 
-.row{
+h4{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #0b4d3e;
+}
+
+.title{
   display: flex;
   flex-direction: row;
 }
 
-h4{
-  margin-bottom: 5px;
-  color: #0b4d3e;
+.botonAdd{
+  margin-left: 44em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color:#ffffff;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 4px;
+  border-color: #1ABC9C;
+  padding-top: 5px;
+}
+
+.botonE{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 4px;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+  padding-top: 5px;
+  margin-left: 3em;
+}
+
+.botonD{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 4px;
+  background-color: #BC1A1A;
+  border-color: #BC1A1A;
+  padding-top: 5px;
+  margin-left: 1em;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+circle-progress{
+  width: 10em;
+  margin: 0;
+  padding: 0;
 }
